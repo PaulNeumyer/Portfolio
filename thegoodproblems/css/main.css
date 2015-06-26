@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Coda+Caption:800);
+
+body .ui-page, .ui-body-c{
+    
+    background: #000 url('../images/bg.jpg') repeat-y 1% 1% fixed!important;
+    color: #fff;
+}
+
+.ui-body-c{
+    text-shadow: 0 0px 0!important;
+}
+
+.ui-body-c img{
+    height: 3.125em!important;
+}
+
+.ui-content{
+    padding: 0.9375em 0 0 0;
+}
+
+#logo{
+    background: #fff url('../images/logo.jpg') no-repeat center center;
+    background-size: contain;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    width: 100%;
+    margin-top: -0.50em;
+    height: 6.125em;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.greeting{
+    text-align: center;
+}
+
+.greeting h1 {
+    font-family: Coda Caption, sans-serif;
+    font-size: 1.5em; 
+    text-align: center;
+    margin: 0!important;
+}
+
+.main-title{
+    font-size: 1em;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 0 5%;
+    padding: .5em 0;
+    border-radius: 10px;
+}
+
+.wrapper{
+    background: rgba(0,0,0,0.5);
+    padding: 1em 0.5em;
+    border-radius: 10px;
+}
+
+.wrapper ul{padding-left: 1.25em;}
+.wrapper ul li{
+    padding: 0.5em 0;
+    list-style-type: circle;
+    font-size: 1.125em;
+}
+
+#contact ul li{
+    list-style-type: none;
+}
+
+.grid{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.grid img{
+    width: 8em!important;
+    height: 8em!important;
+    padding: 0.3em 0.325em;
+}
+
+#flyer-prices th{
+    border-bottom: 1px solid #fff!important;
+}
+
+#footer h5{
+   font-size: 0.6em; 
+}

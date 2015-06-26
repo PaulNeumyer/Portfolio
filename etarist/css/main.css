@@ -1,0 +1,123 @@
+
+.home{
+
+    background: url("images/icons-36-white.png") -1575px 0!important;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0px 0px 0px transparent!important;
+    border: 0px solid transparent!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skype{
+    /*background: url("../img/skype.png") no-repeat!important;*/
+    background-size: 25%;
+    /*width: 85px;
+    height: 36px;*/
+    box-shadow: 0px 0px 0px transparent!important;
+    border: 0px solid transparent!important;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#SkypeButton_Call_etarist_1_paraElement{margin: -0.8;}
+
+#mypanel{
+    background: #333!important;
+}
+
+.ui-body-c{
+    text-shadow: 0 0px 0!important;
+    background: url("../img/bg.jpg") center center!important;
+    background-size: contain;
+}
+
+.ui-conten{
+    overflow: visible!important;
+    padding: 0!important;
+}
+
+.ui-btn-inner{
+    border-top: 0px!important;
+    /*white-space:  !important;*/
+}
+
+.mycontent{
+    background: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    opacity: 0.8;
+    min-height: 500px;  
+    padding: 1em;
+}
+
+.mycontent h1,
+.mycontent h2,
+.mycontent h3{
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+.mycontent{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.mycontent ol, 
+.mycontent ul{
+    padding-top: 1em;
+}
+
+.mycontent form input{
+    background: #fff!important;
+}
+
+form div.ui-input-text,
+textarea.ui-input-text{
+    background: #fff!important;
+    padding: 0!important;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+form ul{
+    padding-left: 0!important;
+}
+
+form ul li{
+    list-style-type: none;
+}
+
+#social_icons{
+    float: left;
+    color: #fff;
+    width:100%;
+    text-align: center;
+    vertical-align: bottom;
+    margin: 10px 0 0 10px;
+
+}
+
+.icon{
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0 0.125em;
+}
+
+#facebook{background: url('images/social_icons.png') 0 0;}            
+#myspace{
+    background: url('images/myspace.png');
+    background-size: 2.5em;
+}
+
+#footer{
+    display: none;
+}
+

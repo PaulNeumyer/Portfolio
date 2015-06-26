@@ -1,0 +1,199 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.ui-content{
+    padding: 0!important;
+}
+
+.mycontent{
+    margin: 1em;
+    min-height: 450px;
+    text-align: justify;
+}
+
+.center-image{text-align: center;}
+
+table tr td:first-child{
+    text-align: left;
+    padding-right: 3em;
+}
+table tr{
+    margin: 0;
+    padding: 0;
+    outline: thin solid black;
+}
+
+h1,h2,h3,h4{text-align: center;}
+    
+.to-top{
+    background: url("images/icons-36-white.png") no-repeat -360px 0!important;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0px 0px 0px transparent!important;
+    border: 0px solid transparent!important;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.slidesjs-previous,
+.slidesjs-next,
+.slidesjs-play,
+.slidesjs-stop{
+    display: none!important;
+}
+
+#header{
+    text-align: center;
+    height: 3.25em;
+    background: url("../images/logo.png") #51bae7 no-repeat center top;
+    background-size: contain;
+}
+
+#header #title{
+    display: none;
+}
+
+#header_logo {
+    width: 100%;
+    height:12.5em;
+}
+#header .ui-btn-text{color: #fff!important;}
+
+#header .ui-body-a .ui-link, 
+#header a:active, 
+#header a:visited{
+    color: #333!important;
+}
+
+#footer_images{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#footer_images img{
+    width: 32%;
+    max-width: 100px;
+    min-height: 70px;
+}
+
+#ccoe{
+    display: block;
+    width: 100%;
+    max-width: 156px;
+    margin: 0 auto;
+    float: none!important;
+}
+
+#footer h4{
+    font-family: 'Dancing Script', cursive;
+    color: #000;
+    font-size: 0.75em;
+    text-align: center!important;
+    overflow: visible!important;
+}
+
+.mymenu{
+    background: url("images/icons-36-white.png") -1575px 0!important;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0px 0px 0px transparent!important;
+    border: 0px solid transparent!important;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+#mypanel{
+    background: #333;
+}
+
+.ui-panel-inner{
+    padding-top: 0!important;
+}
+
+.panel_logo{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    text-align: center;
+    margin-top: -0.25em;
+}
+
+.ui-btn-inner{
+    border-top: 0px!important;
+    /*white-space:  !important;*/
+}
+
+.ui-btn-up-a, .ui-bar-a{text-shadow: 0 0px 0 #000!important;}
+
+.ui-li .ui-btn-text a.ui-link-inherit{white-space: normal!important;}
+
+.ui-page-active.ui-page-panel{overflow-x: visible;}
+
+#social_icons{
+    float: left;
+    color: #fff;
+    width:100%;
+    text-align: center;
+    vertical-align: bottom;
+    margin: 10px 0 0 10px;
+    text-shadow: 0 1px 0 #000!important;
+
+}
+
+#social_icons p{
+    font-family: Georgia, serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.icon{
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0 0.125em;
+}
+
+#facebook{background: url('../images/social_icons.png') 0 0;}            
+#twitter{background: url("../images/social_icons.png") -157px 0;}
+#youtube{background: url("../images/social_icons.png") -105px -53px;}
+#instagram {
+    background: url("../images/instagram.png");
+    background-size: 38px 38px;
+}
+
+#book_now{
+    color: #fff!important;
+    background: #ff7575; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff7575 0%, #ff0000 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff7575), color-stop(100%,#ff0000)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff7575 0%,#ff0000 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ff7575 0%,#ff0000 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ff7575 0%,#ff0000 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff7575 0%,#ff0000 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff7575', endColorstr='#ff0000',GradientType=0 ); /* IE6-9 */
+
+}
+
+@media (max-width: 450px){
+    #header{background: #51bae7;}
+    #header #title{
+        display: block;
+        font-size: 0.75em;
+        margin: 0.25em 0;
+        padding: 0.1em 4.5em;
+        white-space: normal;
+    }
+}
+
+@media (max-width: 365px){
+    .slidesjs-pagination{
+        width: 68%!important;
+    }
+}
+

@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <script type="text/javascript" src="canvas.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <style>
+            #canvas {
+                border: 1px solid #000; margin-left: -30px;
+            }
+        </style>
+        <script type="text/javascript">
+
+            function showDialog() {
+                var name = document.forms.signup.fname.value;
+                var born = document.forms.signup.born.value;
+                var date = new Date();
+                var year = date.getFullYear();
+
+                if (year - born < 18) {
+                    alert("You are too young to join our car club. Please try again when you are over the age of 18. Thanks. ");
+                    return false
+                } else {
+                    alert("Thank you " + name + " for your interest in joining our Car Club. Someone will be in contact with you shortly");
+                    return true;
+                }
+                ;
+            }
+            ;
+        </script>
+
+        <title>Car Club:</title>
+    </head>
+
+    <body>
+        <div class="panel">
+            <p>
+                Fill out the form below to join our car club.
+            </p>
+            <form name="signup" onsubmit="showDialog();">
+                <label for="fname">First Name: </label><input type="text" name="fname" id="fname" required="required" placeholder="First"><br>
+                <label for="lname">Last Name: </label><input type="text" name="lname" id="lname" required="required" placeholder="Last"><br>
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                <label for="email">Email: </label><input type="email" name="email" id="email" required="required" placeholder="example@something.com" size="30"><br>
+                &nbsp <label for="born">Year Born: </label><input type="text" name="born" id="born" required="required" placeholder="Year"><br>
+                <input type="submit" value="Submit">
+                <input type="reset">
+            </form>
+        </div>
+        <p class="slide"><a href="#" class="pull-me">Apply Now!</a></p>
+
+
+
+        <div id="nav_wrapper"><!--BEGIN NAV WRAPPER-->
+            <div id="nav"><!--BEGIN NAVIGATION-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!--END NAVIGATION-->
+        </div>
+        <!--END NAV WRAPPER-->
+
+        <div id="header_wrapper"><!--BEGIN HEADER WRAPPER-->
+
+            <div id="header"><!--BEGIN HEADER--> 
+                <div id="header_float"><!--HEADER FLOAT-->
+                    <h1>Join us for a car club you have never seen before! </h1>
+                </div>
+            </div><!--END HEADER-->
+        </div><!--END HEADER WRAPPER-->
+
+
+        <div id="content_wrapper"><!--BEGIN CONTENT WRAPPER-->
+            <div id="content"><!--BEGIN CONTENT-->
+
+                <!--LEFT COLUMN-->
+
+                <div id="left_column">
+                    <img src="images/1.png" width="45">
+                    <img src="images/2.png" width="45">
+                    <img src="images/3.png" width="45">
+                    <img src="images/4.png" width="45">
+                    <img src="images/5.png" width="45">
+
+                    <h2>Car of the Month: </h2>
+
+                    <img width="100%" src="http://t3.gstatic.com/images?q=tbn:ANd9GcRtdRmTpvVMh7SnUV08RdbstK6LxSdbErkH0dBLYr6HBeogEWLV"><br><br>
+                    <h2>Next Meeting:</h2>
+                    <strong>Wednesday, March 6th 2013</strong>        
+
+                </div>
+
+                <!--RIGHT COLUMN-->     
+                <div id="right_column">
+
+                    <h1>Welcome to our Car Club</h1><hr>
+
+                    <p>
+                        We are a Car Club that loves to have fun, travel the world, and help out the community. We have a tour this year, visiting U.S. cities from east coast to west coast. Help us to raise our goal and make this tour possible. Below you will see where we are with our goal, and where we need to be. If you are a vendor, and are interested in sponsoring your company please fill out our <a href="contact.html">Contact page</a>, and someone will get back to you shortly. <br><br>
+
+                        Progress toward our Goal:  <progress value="1000" max="5000">5000</progress>
+                    </p>
+
+
+                </div>
+
+            </div><!--END CONTENT-->
+        </div><!--END CONTENT WRAPPER-->
+
+        <div id="footer_wrapper"><!--BEGIN FOOTER WRAPPER-->
+            <div id="footer"><!--BEGIN FOOTER-->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <br><br><br><br><br>
+                Last Modified: <script type="text/javascript">document.write(document.lastModified);</script>
+
+            </div><!--END FOOTER-->
+        </div><!--END FOOTER WRAPPER-->
+
+    </body>
+</html>

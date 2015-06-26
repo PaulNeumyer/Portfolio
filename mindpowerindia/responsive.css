@@ -1,0 +1,97 @@
+#contentContainer{background: #ededed;}
+
+#content{
+    width: 50%;
+    padding: 0.5em;
+    margin: 1em 0;
+    background:#fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: 3px solid lightblue;
+}
+
+@media (max-width: 825px){ 
+
+    #content{width: 95%!important;}
+
+    .banner{height: auto!important;}
+
+    .banner img{
+        padding: 1em!important;
+        margin: 0 auto!important;
+        display: block!important;
+    }
+
+    #contentContainer,
+    /*#content,*/
+    #contentTop,
+    #contentBottom,
+    #content img,
+    table,
+    tbody, 
+    table tr td img {
+        width: 100%!important;
+        height: auto!important;
+    }
+
+    table #img_1{max-width: 299px!important;}
+    table #img_2{max-width: 255px!important;}
+    table #img_3{max-width: 250px!important;}
+    table #img_4{max-width: 102px!important;}
+    table #img_5{max-width: 176px!important;}
+    table #img_6{max-width: 155px!important;}
+    table #img_7{max-width: 206px!important;}
+    .details{max-width: 131px!important;}
+
+    .bannerbottom{height: 100%!important;}
+
+    .bannerbottom table, 
+    .bannerbottom thead, 
+    .bannerbottom tbody, 
+    .bannerbottom th, 
+    .bannerbottom td, 
+    .bannerbottom tr { 
+        display: block!important; 
+        /*width: 100%!important;*/
+    }
+
+    .bannerbottom table tr:first-child td:nth-of-type(1),
+    .bannerbottom table tr:first-child td:nth-of-type(2){ 
+        position: absolute!important;;
+        top: -9999px!important;
+        left: -9999px;
+        /*display: none!important;*/
+    }
+
+    .bannerbottom tr { border: 1px solid #ccc!important; }
+
+    .bannerbottom td { 
+        /* Behave  like a "row" */
+        height: 100%!important;
+        border: none!important;
+        border-bottom: 1px solid #eee!important; 
+        position: relative!important;
+        padding: 3em 2em!important; 
+        margin: 0 auto!important;
+    }
+
+    .bannerbottom td:before { 
+        /* Now like a table header */
+        position: absolute!important;
+        /* Top/left values mimic padding */
+        color: #fff!important;
+        top: 6px!important;
+        left: 6px!important;
+        width: 45%!important;
+        padding-right: 10px!important; 
+        white-space: nowrap!important;
+    }
+
+    /*
+    Label the data
+    */
+    .bannerbottom td:nth-of-type(1):before { content: "For Mind Machine"; }
+    .bannerbottom td:nth-of-type(2):before { content: "For Courses, CDs"; }
+
+}

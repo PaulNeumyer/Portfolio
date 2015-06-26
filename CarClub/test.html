@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">
+</script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+  });
+});
+</script>
+ <script type="text/javascript">
+	
+	function showDialog(){
+		var name = document.forms.signup.fname.value;		
+		alert("Thank you "+ name +" for your interest in joining our Car Club. Someone will be in contact with you shortly");
+		document.forms.signup.submit();
+	};
+	
+	function validateForm(){
+		var fname = document.getElementById('fname').value;
+		if(fname == "Paul"){
+			alert("Hello Paul");
+			return true;	
+		}else{
+			alert("Wront try again!");
+			return false;	
+		}
+	};
+</script>
+<style type="text/css"> 
+#panel,#flip
+{
+padding:5px;
+text-align:center;
+background-color:#e5eecc;
+border:solid 1px #c3c3c3;
+}
+#panel
+{
+padding:50px;
+display:none;
+}
+</style>
+</head>
+<body>
+ 
+ <form name="contact_us" method="get">
+        <label for="fname">First Name: </label><input type="text" name="fname" id="fname" required="required" placeholder="First"><br>
+        <label for="lname">Last Name: </label><input type="text" name="lname" id="lname" required="required" placeholder="Last"><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <label for="email">Email: </label><input type="email" name="email" id="email" required="required" placeholder="example@something.com" size="30"><br>
+        <input type="submit" value="Submit" onclick="showDialog();">
+        <input type="reset">
+        </form>
+        
+<div id="flip">Click to slide the panel down or up</div>
+<div id="panel">Hello world!</div>
+
+</body>
+</html>
+

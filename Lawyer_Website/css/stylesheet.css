@@ -1,0 +1,315 @@
+body{
+/* The page background, font, font size and color. */
+/*background:#3b4256;*/
+/*background-image:url("../images/default_background.gif");*/
+background-image: url(../images/left-right-body-border-background.gif);
+background-repeat: repeat-x;
+background-color: #870100;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#111111;
+/* These are the values around the HTML code, so setting it on 0px will leaves us with no padding around the design, rendering the page at the absolute top. */
+margin:0px;
+padding:0px;
+}
+/* Our wrapper, which contains our 1px stretching background image (main_bg.jpg). */
+#wrapper{
+	width:1022px;
+	margin:0px auto;
+	padding:0px;
+	padding-left:0px;
+
+}
+/* The header image, with a left float, kinda easy and not much to explain =). */
+#header{
+/*background:url("../images/banner.jpg");*/
+width:1022px;
+height:136px;
+float:left;
+padding-left: 43px;
+}
+
+#flash-container{
+height: 181px;
+/*background:#FFFFFF;*/
+width:723px;
+float:left;
+padding-left:43px;
+}
+
+/* Same as the left container but then a different width which I took from the c_top.jpg image. Float:left to align it to the left, and since the left container didn't fill the whole 960px of the wrapper layer it will join sides with the left container. */
+#content_container{
+background-position: right;
+width:1022px;
+float:left;
+padding-left:43px;
+}
+
+/* The rest is self explanatory */
+#content_top_bar_border_top{
+background-image: url(../images/top-menu/topmenu-border-top.gif);
+background-repeat: repeat-x;
+width:936px;
+height:15px;
+float:left;
+}
+/* The rest is self explanatory */
+#content_top_bar{
+background-image: url(../images/top-menu/top-menu-background.gif);
+background-repeat: repeat-x;
+width:530px;
+height:33px;
+float:left;
+}
+
+
+/* The left container which will contain our whole left menu, it functions sort of like our wrapper layer. we position the container on the left side, give it a width of the total width we need. I'd measured the width of the lm_top.jpg, this image will be our total width. and we give it a float:left to align the div on the left. */
+#main_container{
+	background-color: #FFFFFF;
+	width:936px;
+	float:left;
+	background-image: url(../images/body-background.jpg);
+	background-repeat: repeat-y;
+}
+
+/* The left container which will contain our whole left menu, it functions sort of like our wrapper layer. we position the container on the left side, give it a width of the total width we need. I'd measured the width of the lm_top.jpg, this image will be our total width. and we give it a float:left to align the div on the left. */
+#left_container{
+	width:203px;
+	float:left;
+	height: 649px;
+	background-image: url(../images/vertical-menu-left/areas_of_practice.jpg);
+	background-repeat: no-repeat;
+	padding-top:50px;
+}
+
+#middle_container{
+width:500px;
+float:left;
+padding-right:0px;
+padding-left:0px;
+padding-top:0px;
+}
+#middle_text_container{
+width:500px;
+float:left;
+padding-right:15px;
+padding-left:15px;
+padding-top:10px;
+}
+
+#right_container{
+	width:203px;
+	float:left;
+	height: 649px;
+	padding-left: 30px;
+}
+
+#right_container_header{
+	width:203px;
+	height: 35px;
+	float:left;
+	background-image: url(../images/vertical-menu-right/las-vegas-lawyer-criminal-defense.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+#right_container_header2{
+	width:203px;
+	height: 32px;
+	float:left;
+	background-image: url(../images/vertical-menu-right/las-vegas-lawyer-civil-litigation.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+#bottom-links{
+	width:900px;
+	float: left;
+	font-family: Calibri;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 30px;
+	letter-spacing: .1em;
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom: 30px;
+}
+#misc_container{
+float: left;
+}
+.misc_container{
+float: left;
+}
+
+/* Our footer has the clear:both value, we could use clear:left since we only use left floats. But I allways use clear:both for this is the most effective way of clearing floats. */ 
+#footer_container{
+	clear:both;
+	width:1022px;
+	padding-left: 43px;
+
+}
+#footer{
+	width:936px;
+	background-image: url(../images/footer-background.gif);
+	background-repeat: repeat-x;
+	height:100px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#contact_us_container{
+	width:203px;
+	float:left;
+	padding-left: 10px;
+	padding-top: 12px;
+	background-color: #990000;
+	height: 169px;
+}
+
+fieldset
+{
+	border: 0px solid #990000;
+	width: 170px;
+	height: 150px;
+	padding-left: 5px;
+	padding-right: 10px;
+	
+}
+
+.input
+{
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	FONT-SIZE: 12px;
+	BACKGROUND: #ffffff;
+	MARGIN-BOTTOM: 2px;
+	PADDING-BOTTOM: 1px;
+	COLOR: #000000;
+	PADDING-TOP: 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 1px solid #000033;
+	width: 170px;
+
+}
+textarea
+{
+	PADDING-RIGHT: 1px;
+	PADDING-LEFT: 1px;
+	FONT-SIZE: 12px;
+	BACKGROUND: #ffffff;
+	MARGIN-BOTTOM: 2px;
+	PADDING-BOTTOM: 1px;
+	COLOR: #000000;
+	PADDING-TOP: 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: 1px solid #000033;
+	width: 170px;
+}
+
+#spacer{
+height:10px;
+}
+.spacer{
+height:10px;
+}
+
+.body-text{
+	font-family: Calibri;
+	font-size: 14px;
+	color: #000000;
+	text-align: justify;
+	letter-spacing: .1em;
+}
+
+.link{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000033;
+	letter-spacing: 0.1em;
+	text-align:left;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.link:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #003300;
+	letter-spacing: 0.1em;
+	text-align:left;
+	text-decoration: none;
+	font-weight: bold;
+}
+.link2{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0.1em;
+	text-align:left;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.link2:hover{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFF00;
+	letter-spacing: 0.1em;
+	text-align:left;
+	text-decoration: none;
+	font-weight: bold;
+}
+.footer-link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ff4e00;
+	text-align: justify;
+	letter-spacing: .1em;
+	text-decoration: none;
+}
+.footer-link:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #990000;
+	text-align: justify;
+	letter-spacing: .1em;
+	text-decoration: none;
+}
+
+.footer-text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #990000;
+	letter-spacing: .1em;
+}
+h1{
+	font-family: Calibri;
+	font-size: 24px;
+	color: #000000;
+	text-align: left;
+	letter-spacing: .1em;
+	margin-bottom: 0px; 
+	padding-bottom: 0px; 
+	padding-top:0px; 
+	margin-top:0px;
+	display: inline;
+}
+h2{
+	font-family: Calibri;
+	font-size: 20px;
+	color: #000000;
+	text-align: left;
+	letter-spacing: .1em;
+}
+h3{
+	font-family: Calibri;
+	font-size: 17px;
+	color: #000000;
+	text-align: left;
+	letter-spacing: .1em;
+	text-decoration: underline;
+}
+hr{
+color: #d5d5d5;
+}
